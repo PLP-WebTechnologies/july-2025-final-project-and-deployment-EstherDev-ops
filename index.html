@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esther Maina - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">EM</div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="logout-btn" class="btn">Logout</button>
+            </div>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Hello I'm Esther Maina</h1>
+                <div class="typing-text">
+                    <span id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <button id="view-projects" class="btn">View My Projects</button>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <h3>Mini Learning</h3>
+                        <p>A mini e-learning platform with course management and user progress tracking.</p>
+                        <a href="https://github.com/EstherDev-ops/my-new-project" target="_blank" class="btn github-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <h3>Login Form</h3>
+                        <p>A secure login system with validation, authentication, and responsive design.</p>
+                        <a href="https://github.com/EstherDev-ops/my-coding-project" target="_blank" class="btn github-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <h3>USSD System</h3>
+                        <p>A USSD simulation for mobile banking transactions and service access.</p>
+                        <a href="https://github.com/EstherDev-ops/USSD-SYSTEM" target="_blank" class="btn github-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://wa.me/254115681550" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/esther-maina-000a3a35a" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/EstherDev-ops" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <button id="scroll-top" class="btn" aria-label="Scroll to top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            <p>&copy; 2025 Esther Maina. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
